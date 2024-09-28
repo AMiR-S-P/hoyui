@@ -2,6 +2,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -14,7 +16,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@hoyui/hoyjs": ["libs/hoyjs/src/index.ts"],
+      "@hoyui/hoyreact": ["libs/hoyreact/src/index.ts"],
+      "@hoyui/icons": ["libs/icons"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

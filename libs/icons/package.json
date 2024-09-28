@@ -1,0 +1,14 @@
+{
+  "name": "@hoyui/icons",
+  "version": "27.1.50",
+  "exports": {
+    ".": {}
+  },
+  "scripts": {
+    "build": "gulp styles "
+  },
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0"
+  }
+}

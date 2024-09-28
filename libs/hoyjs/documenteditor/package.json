@@ -1,0 +1,67 @@
+{
+	"name": "@hoyui/documenteditor",
+	"version": "27.1.48",
+	"description": "Feature-rich document editor control with built-in support for context menu, options pane and dialogs.",
+	"keywords": [
+		"ej2",
+		"web-components",
+		"syncfusion",
+		"documenteditor",
+		"document-editor",
+		"word-editor"
+	],
+	"homepage": "https://www.syncfusion.com/products/javascript/document-editor",
+	"author": "Syncfusion Inc.",
+	"license": "SEE LICENSE IN license",
+	"main": "./dist/ej2-documenteditor.umd.min.js",
+	"module": "./index.js",
+	"es2015": "./dist/es6/ej2-documenteditor.es5.js",
+	"dependencies": {
+		"@hoyui/base": "*",
+		"@hoyui/buttons": "*",
+		"@hoyui/calendars": "*",
+		"@hoyui/compression": "*",
+		"@hoyui/dropdowns": "*",
+		"@hoyui/file-utils": "*",
+		"@hoyui/inputs": "*",
+		"@hoyui/navigations": "*",
+		"@hoyui/office-chart": "*",
+		"@hoyui/popups": "*",
+		"@hoyui/splitbuttons": "*",
+		"markdown-spellcheck": "^1.3.1"
+	},
+	"devDependencies": {
+		"@hoyui/staging": "^1.0.1",
+		"@types/chai": "^3.4.28",
+		"@types/jasmine": "2.8.9",
+		"@types/jasmine-ajax": "^3.1.27",
+		"@types/requirejs": "^2.1.26",
+		"es6-promise": "^3.2.1",
+		"gulp": "^3.9.1",
+		"gulp-sass": "^3.1.0",
+		"gulp-typescript": "^3.1.6",
+		"requirejs": "^2.3.3",
+		"typescript": "2.3.4",
+		"canteen": "^1.0.5",
+		"jasmine-ajax": "^3.3.1",
+		"jasmine-core": "^2.6.1",
+		"karma": "^1.7.0",
+		"karma-chrome-launcher": "^2.2.0",
+		"karma-generic-preprocessor": "^1.1.0",
+		"karma-htmlfile-reporter": "^0.3.5",
+		"karma-jasmine": "^1.1.0",
+		"karma-jasmine-ajax": "^0.1.13",
+		"karma-requirejs": "^1.1.0",
+		"nedb": "^1.8.0",
+		"simple-odata-server": "^0.3.1"
+	},
+	"scripts": {
+		"build": "gulp build",
+		"test": "gulp test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/syncfusion/ej2-javascript-ui-controls.git"
+	},
+	"typings": "index.d.ts"
+}

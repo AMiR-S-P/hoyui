@@ -1,0 +1,5 @@
+@include export-module('signature-layout') {
+  .e-signature.e-control {
+    border: $signature-border;
+  }
+}

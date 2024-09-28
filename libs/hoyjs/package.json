@@ -1,0 +1,8 @@
+{
+  "name": "hoyjs",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "build.bat",
+    "install": "install.bat"
+  }
+}
